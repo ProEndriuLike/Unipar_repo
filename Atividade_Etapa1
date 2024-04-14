@@ -1,0 +1,46 @@
+Nome: Endriu Luiz Presmini; RA: 258304-1
+
+REVISÃO ETAPA 1 - TEÓRICA
+
+1- O que é orientação a objetos e quais são seus princípios fundamentais?
+	É um modelo de programação que se sustenta no conceito de objetos. Nela, diferentes objetos se relacionam entre si, trazendo uma dinamicidade e maior organização no desenvolvimento de softwares. Seus princípios fundamentais são abstração, encapsulamento, herança e polimorfismo.
+
+2-Quais são as vantagens da orientação a objetos em comparação com paradigmas de programação procedural?
+	Alguns de seus benefícios são a modularidade do código, facilitando a identificação de fragmentos específicos do código, e a legibilidade num geral.
+
+3- Explique o conceito de encapsulamento e como ele é implementado em linguagens de programação orientadas a objetos.
+	O encapsulamento consiste no princípio de que cada objeto deve manter a integridade de seus dados. Ele permite ocultar os detalhes internos do objeto, expondo apenas a interface necessária para interagir com ele.
+	A implementação se dá com a utilização de atributos privados, métodos públicos e validação de dados, garantindo segurança, flexibilidade e modularidade ao código.
+
+4- Explique o conceito de classe e objeto em programação orientada a objetos, e como eles estão relacionados.
+	A classe é um modelo que define a estrutura e as características pertencentes aos objetos que serão originados dela. Ela definirá o comportamento do objeto, seus métodos e atributos.
+	O objeto é criado a partir de uma classe, podendo muitos objetos similares serem originados da mesma classe. Cada um destes objetos terá seus próprios valores e poderá executar as operações que foram definidas pela classe.
+	Como exemplo, a classe “Carro” pode originar os objetos “carro1”, “carro2”, etc.
+
+5- Qual é a importância dos construtores e métodos em uma classe em programação orientada a objetos?
+	O construtor é essencial para a inicialização do objeto, sendo chamado automaticamente quando um objeto da classe é instanciado, e não tem um tipo específico de retorno. Ele tem o mesmo nome da classe e não necessariamente precisa de parâmetros, mas também pode ser usado para definir valores padrão para os atributos, validar parâmetros de entrada, configurar variáveis de ambiente, dentre outras tarefas de inicialização necessárias.
+	Métodos são as ações do objeto. Diferentemente do construtor, eles sempre precisam especificar o tipo de retorno, e podem ser invocados a qualquer momento desde que você possua uma instância do objeto. Métodos como os “getters” e “setters” são essenciais no desenvolvimento de sistemas que utilizam o princípio de encapsulamento.
+
+6- Quais são as diferenças entre métodos estáticos e métodos de instância em uma classe?
+	O método estático é uma função que não depende de instância. Quando é invocado, se relaciona apenas com a própria classe e executa sua função sem se relacionar com nenhum objeto, e também não pode ser utilizado em um objeto instanciado.
+	Já o método de instância se relaciona com os objetos instanciados da classe e podem manipular as variáveis de instância do objeto.
+
+7- Como são tratados os conceitos de acoplamento e coesão na orientação a objetos e por que são importantes?
+	Coesão: grau com o qual uma classe ou um método tem uma responsabilidade única e bem definida, coesa. O conceito está ligado ao princípio da responsabilidade única, que diz que uma classe deve ter apenas uma única responsabilidade e realizá-la de maneira satisfatória, sem assumir responsabilidades que não são suas.
+	Acoplamento: se refere ao quanto um módulo depende de outro para funcionar. Quanto maior for a dependência entre dois módulos. Mais difícil se torna o gerenciamento do sistema.
+	Considera-se ideal para que um sistema seja flexível e compreensível, módulos com alta coesão e baixo acoplamento.
+
+8- Qual é o objetivo do método main ?
+	O método main é o ponto de entrada para a execução do programa. Ele se localiza na classe principal e é o primeiro a ser executado após a inicialização do programa, sendo essencial na programação em Java.
+
+9- Como ocorre a passagem de parâmetros em métodos de uma classe em programação orientada a objetos?
+	O parâmetro é indicado quando se cria o método, indicando seu tipo e, em caso de múltiplos parâmetros, separando-os com uma vírgula.
+	Exemplo: public void setNumero(int numero) { this.numero = numero; }
+
+10- Qual é a diferença entre os modificadores de acesso "public", "private" e "protected" em uma classe?
+	Public: Permite acesso livre de qualquer lugar.
+	Private: Acesso apenas dentro da mesma classe.
+	Protected: Acesso apenas dentro do pacote e por subclasses
+
+11-Qual é a importância da palavra-chave "this" em programação orientada a objetos e como ela é utilizada?
+	Em java, o “this” é utilizado para referenciar a classe atual onde ele está sendo chamado. Ele sempre referencia atributos de sua Classe que sempre irão existir, e não à parâmetros do método, mesmo que tenham o mesmo nome.
