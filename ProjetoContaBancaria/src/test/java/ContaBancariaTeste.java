@@ -51,10 +51,10 @@ public class ContaBancariaTeste {
     @Test
     public void testSaqueMaiorContaPoupanca(){
         ContaCorrente conta = new ContaCorrente();
-        conta.depositar(3d);
-        boolean validacao = conta.saque(5d);
+        conta.depositar(1000d);
+        boolean validacao = conta.saque(1500d);
 
         assertFalse(validacao);
-        assertEquals(conta.obterSaldo(), 3);
+        assertEquals(conta.obterSaldo(), 1000);
     }
 }
